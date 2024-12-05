@@ -1,0 +1,245 @@
+{% extends 'index.html' %}
+{% load static %}
+{% block body %}
+        <!-- //banner -->
+        <!-- breadcrumbs -->
+        <div class="crumbs text-center" style="margin-top:8%">
+            <div class="container">
+                <div class="row">
+                    <ul class="btn-group btn-breadcrumb bc-list">
+                        <li class="btn btn1">
+                            <a href="{% url 'home' %}">
+                                <i class="glyphicon glyphicon-home"></i>
+                            </a>
+                        </li>
+                        <li class="btn btn2">
+                            <a href="{% url 'about' %}">About us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--//breadcrumbs ends here-->
+        <!-- about -->
+        <div class="about-sec section" id="about">
+            <div class="container">
+                <!-- about-left-grid -->
+                <center><h1><b>ABOUT US</b></h1><br>
+                <p>The software named <b>“STU MART”</b> that we introduce for the Students. 
+                    The development and implementation of this software designed to facilitate the 
+                    buying and selling of study materials for students. The proposed software aims to 
+                    create a seamless and efficient marketplace where students can exchange 
+                    textbooks, lecture notes, guides, and other educational resources. Now a days 
+                    after the current class the study materials will become as useless and there is a 
+                    less chance to sell the materials to other students that who actually needs the 
+                    material. By using this software the students can sell the books after their use. 
+                    And those who needs the materials that they can buy through this platform. Here 
+                    we provide a platform for the students to sell and buy the materials. The primary 
+                    objective of this software is to create a digital marketplace where students can 
+                    easily buy and sell study materials, including textbooks, notes, research papers, 
+                    and supplementary resources. </p><br><br><br><br><br></center>
+                <div class="col-md-7 about-left-grid">
+                    <div class="inner-about2">
+                        
+                        <h4>Buy And Sell Used Books</h4><br><br>
+                    
+                        <h5>Featured By</h5>
+                        <ul class="about-list">
+                            <li>
+                                <i class="fa fa-play-circle-o" aria-hidden="true"></i>Affordable Textbooks and Study Materials</li>
+                            <li>
+                                <i class="fa fa-play-circle-o" aria-hidden="true"></i> Book Trading and Swapping</li>
+                            <li>
+                                <i class="fa fa-play-circle-o" aria-hidden="true"></i>Local Buying and Selling</li>
+                            <li>
+                                <i class="fa fa-play-circle-o" aria-hidden="true"></i>Environmentally Friendly</li>
+                            <li>
+                                <i class="fa fa-play-circle-o" aria-hidden="true"></i>Cost Savings Beyond Textbooks</li>
+                            <li>
+                                <i class="fa fa-play-circle-o" aria-hidden="true"></i>Support for Different Academic Levels</li>
+                            <li>
+                                <i class="fa fa-play-circle-o" aria-hidden="true"></i>Enhanced Student Experience</li>
+
+                        </ul>
+                    
+                    </div>
+                </div>
+                <!-- //about-left-grid ends here-->
+            
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        <!-- //about ends here -->
+        <!-- about bottom -->
+        <!--<div class="about-bottom section">
+            <div class="container-fluid">
+                <h4 class="rad-txt">
+                    <span class="abtxt1">Buy And Sell</span>
+                    <span class="abtext">Used Books</span>
+                </h4>
+                 
+                <div class="col-md-6 about-bottom-right">
+                    <p class="abt-p">The students can sell all the study material after their use.
+                    </p>
+                    <div class="col-md-6 col-sm-6 col-xs-6 services-w3ls">
+                        <div class="ab1">
+                            <div class="col-md-3 col-sm-3 col-xs-3 ab1-icon">
+                                <span class="fa fa-book" aria-hidden="true"></span>
+                            </div>
+                            <div class="col-md-9 col-sm-9 col-xs-9 ab1-text">
+                                <h5>HOT NOTES</h5>
+                                <p>It will hepls you understand quikly. Helps to crack the exam easilys </p>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="ab1">
+                            <div class="col-md-3 col-sm-3 col-xs-3 ab1-icon">
+                                <span class="fa fa-book" aria-hidden="true"></span>
+                            </div>
+                            <div class="col-md-9 col-sm-9 col-xs-9 ab1-text">
+                                <h5>BOOKS</h5>
+                                <p>If the book is useless for you.Then share it to needy students</p>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="ab1">
+                            <div class="col-md-3 col-sm-3 col-xs-3 ab1-icon">
+                                <span class="fa fa-book" aria-hidden="true"></span>
+                            </div>
+                            <div class="col-md-9 col-sm-9 col-xs-9 ab1-text">
+                                <h5>STUDY MATERIAL</h5>
+                                <p>share it </p>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-6 services-w3ls service2">
+                        <div class="ab1">
+                            <div class="col-md-3 col-sm-3 col-xs-3 ab1-icon">
+                                <span class="fa fa-book" aria-hidden="true"></span>
+                            </div>
+                            <div class="col-md-9 col-sm-9 col-xs-9 ab1-text">
+                                <h5>E-NOTES</h5>
+                                <p>Share the pdf notes</p>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="ab1">
+                            <div class="col-md-3 col-sm-3 col-xs-3 ab1-icon">
+                                <span class="fa fa-book" aria-hidden="true"></span>
+                            </div>
+                            <div class="col-md-9 col-sm-9 col-xs-9 ab1-text">
+                                <h5>SHORT NOTES</h5>
+                                <p>Share your short notes to others.</p>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="ab1">
+                            <div class="col-md-3 col-sm-3 col-xs-3 ab1-icon">
+                                <span class="fa fa-book" aria-hidden="true"></span>
+                            </div>
+                            <div class="col-md-9 col-sm-9 col-xs-9 ab1-text">
+                                <h5>AUDIO CLASS</h5>
+                                <p>Share the voice records.</p>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div> 
+                    <div class="clearfix"></div>
+                </div>
+              
+                <div class="col-md-6 home-about2">
+               
+                <div class="col-md-6 col-sm-6 col-xs-6 bg-right"></div>
+                
+                <div class="clearfix"></div>
+               </div>
+                
+                <div class="clearfix"></div>
+            </div>
+           
+        </div>-->
+        <!--//about bottom ends here-->
+       
+                       
+      
+        <div class="reviews section" id="testimonials">
+            <div class="container">
+                <h4 class="rad-txt">
+                    <span class="abtxt1">TEAM</span>
+                    <span class="abtext">DEVELOPERS</span>
+                </h4>
+                <div id="Carousel" class="slide carousel">
+                    <!-- Carousel items -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <div class="row">
+                                <div class="col-md-6  testi-main">
+                                    <div class="testi-grids">
+                                        <div class="col-md-9 col-sm-9 col-xs-9 team-w3ls-txt">
+                                            <h6>FRONTEND DEVELOPER</h6>
+                                            <p>Creates the userfriendly interface.</p>
+                                            <h5>NIYAS MOHAMMED</h5>
+                                        </div>
+                                        <div class="col-md-3 col-sm-3 col-xs-3  img-testi">
+                                            <img class="img-responsive" src="{% static 'images/c4.jpg' %}" alt="">
+                                        </div>
+                                        <div class="clearfix"> </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6  testi-main">
+                                    <div class="testi-grids t2">
+                                        <div class="col-md-3 col-sm-3 col-xs-3 img-testi">
+                                            <img class="img-responsive" src="{% static 'images/c2.jpg' %}" alt="">
+                                        </div>
+                                        <div class="col-md-9 col-sm-9 col-xs-9 team-w3ls-txt">
+                                            <h6>PROJECT GUIDE</h6>
+                                            <p>Gives the all support and help to developing this website.</p>
+                                            <h5>Prof.SANDHYA</h5>
+                                        </div>
+        
+                                        <div class="clearfix"> </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6  testi-main">
+                                    <div class="testi-grids">
+                                        <div class="col-md-9 col-sm-9 col-xs-9 team-w3ls-txt">
+                                            <h6>BACKEND DEVELOPER</h6>
+                                            <p>Devlop all the operations and functions.</p>
+                                            <h5>NIHAL AP</h5>
+                                        </div>
+                                        <div class="col-md-3 col-sm-3 col-xs-3 img-testi">
+                                            <img class="img-responsive" src="{% static 'images/c3.jpg' %}" alt="">
+                                        </div>
+                                        <div class="clearfix"> </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6  testi-main">
+                                    <div class="testi-grids t2">
+                                        <div class="col-md-3 col-sm-3 col-xs-3 img-testi">
+                                            <img class="img-responsive" src="{% static 'images/c4.jpg' %}" alt="">
+                                        </div>
+                                        <div class="col-md-9 col-sm-9 col-xs-9 team-w3ls-txt">
+                                            <h6>DATABASE</h6>
+                                            <p>Creates the datbase and handling the database.</p>
+                                            <h5>PS ASWIN KRISHNA</h5>
+                                        </div>
+                                        <div class="clearfix"> </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--.row-->
+                        </div>
+                        <!--.item-->
+                        
+                    </div>
+                    <!--.carousel-inner-->
+                    <a data-slide="prev" href="#Carousel" class="left carousel-control">‹</a>
+                    <a data-slide="next" href="#Carousel" class="right carousel-control">›</a>
+                </div>
+                <!--.Carousel-->
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+        {% endblock %}
